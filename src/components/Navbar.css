@@ -10,13 +10,6 @@
   width: 100%;
 }
 
-.logo a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
 .nav-links {
   list-style: none;
   display: flex;
@@ -36,5 +29,6 @@
 }
 
 .nav-links .active {
-  color: #00c4ff;
+  color: #ddcafa;
+  font-weight: bold;
 }
