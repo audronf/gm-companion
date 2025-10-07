@@ -1,0 +1,21 @@
+.vault-page {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  color: #ddcafa;
+}
+
+.vault-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ddcafa; /* texto principal acorde a la paleta */
+}
+
+/* Grid de 3 columnas, responsivo */
+.vault-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
