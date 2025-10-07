@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -6,13 +6,13 @@ export default function Navbar() {
     <nav className="navbar">
       <ul className="nav-links">
         <li>
-          <NavLink to="/page1">Sobre mí</NavLink>
+          <NavLink to="/music">Music</NavLink>
         </li>
         <li>
-          <NavLink to="/page2">Servicios</NavLink>
+          <NavLink to="/sfx">Sounds</NavLink>
         </li>
         <li>
-          <NavLink to="/page3">Contacto</NavLink>
+          <NavLink to="/urls">URL Vault</NavLink>
         </li>
       </ul>
     </nav>
