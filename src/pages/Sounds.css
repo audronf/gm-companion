@@ -1,18 +1,18 @@
-.vault-page {
+.sounds-page {
   max-width: 1200px;
   margin: 2rem auto;
   padding: 0 2rem;
-  color: #ddcafa;
+  color: #fff;
 }
 
-.vault-title {
+.sounds-title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
   color: #ddcafa;
 }
 
-.vault-grid {
+.sounds-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5rem;
