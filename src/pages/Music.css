@@ -1,0 +1,30 @@
+.music-title-page {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #ddcafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.music-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+  align-items: start;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.music-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+  color: #aaa;
+  align-items: center;
+}
