@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Filter } from "lucide-react";
 import "./Music.css";
-import Song from "../components/Song";
+import Song from "../../components/song/Song";
 
 export default function Music() {
   const musicLinks = [

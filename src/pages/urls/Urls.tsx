@@ -1,4 +1,4 @@
-import UrlCard from "../components/UrlCard";
+import UrlCard from "../../components/url-card/UrlCard";
 import "./Urls.css";
 
 export default function UrlVault() {

@@ -1,7 +1,7 @@
-import sound1 from "../assets/sounds/sound1.mp3";
-import sound2 from "../assets/sounds/sound2.mp3";
-import sound3 from "../assets/sounds/sound3.mp3";
-import SoundCard from "../components/Sound";
+import sound1 from "../../assets/sounds/sound1.mp3";
+import sound2 from "../../assets/sounds/sound2.mp3";
+import sound3 from "../../assets/sounds/sound3.mp3";
+import SoundCard from "../../components/sound/Sound";
 import "./Sounds.css";
 
 export default function Sounds() {
