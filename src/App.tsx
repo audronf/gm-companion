@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Music from "./pages/Music";
-import Sounds from "./pages/Sounds";
-import UrlVault from "./pages/Urls";
-import Home from "./pages/Home";
+import Navbar from "./components/navbar/Navbar";
+import Music from "./pages/music/Music";
+import Sounds from "./pages/sounds/Sounds";
+import UrlVault from "./pages/urls/Urls";
+import Home from "./pages/home/Home";
 
 export default function App() {
   return (
