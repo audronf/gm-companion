@@ -1,14 +1,21 @@
-import sound1 from "../../assets/sounds/sound1.mp3";
-import sound2 from "../../assets/sounds/sound2.mp3";
-import sound3 from "../../assets/sounds/sound3.mp3";
 import SoundCard from "../../components/sound/Sound";
+import iphoneRing from "../../assets/sounds/iphone_ring.mp3";
+import faucet from "../../assets/sounds/faucet.mp3";
+import shower from "../../assets/sounds/shower.mp3";
+import door from "../../assets/sounds/door.mp3";
+import footsteps from "../../assets/sounds/footsteps.mp3";
+import sinister from "../../assets/sounds/sinister.mp3";
+
 import "./Sounds.css";
 
 export default function Sounds() {
   const sounds = [
-    { title: "Sound 1", audioSrc: sound1 },
-    { title: "Sound 2", audioSrc: sound2 },
-    { title: "Sound 3", audioSrc: sound3 },
+    { title: "Iphone Ringing", audioSrc: iphoneRing },
+    { title: "Faucet", audioSrc: faucet },
+    { title: "Shower", audioSrc: shower },
+    { title: "Door Slam", audioSrc: door },
+    { title: "Footsteps", audioSrc: footsteps },
+    { title: "Sinister", audioSrc: sinister },
   ];
 
   return (

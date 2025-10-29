@@ -6,28 +6,28 @@ import Song from "../../components/song/Song";
 export default function Music() {
   const musicLinks = [
     {
-      title: "Song 1",
-      description: "Relaxing song",
-      url: "https://google.com",
-      tag: "Relax",
+      title: "Eldritch",
+      description: "Suspense ambience",
+      url: "https://www.youtube.com/watch?v=9QOBpjfZdGQ",
+      tag: "Suspense",
     },
     {
-      title: "Epic Battle",
-      description: "Epic combat music",
-      url: "https://google.com",
-      tag: "Battle",
+      title: "Dark",
+      description: "Horror background",
+      url: "https://www.youtube.com/watch?v=Z6ylGHfLrdI",
+      tag: "Eerie",
     },
     {
-      title: "Mistery",
-      description: "Tension and suspense",
-      url: "https://google.com",
-      tag: "Tension",
+      title: "Asylum",
+      description: "Dark ambience",
+      url: "https://www.youtube.com/watch?v=8_GADiwSm_M",
+      tag: "Horror",
     },
     {
-      title: "Ambient",
-      description: "Immersive sounds",
-      url: "https:/google.com",
-      tag: "Exploration",
+      title: "Ominous",
+      description: "Creepy music",
+      url: "https://www.youtube.com/watch?v=mlLGwW7eHTI&t=56s",
+      tag: "Horror",
     },
   ];
 
